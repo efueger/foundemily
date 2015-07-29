@@ -1,0 +1,11 @@
+# Save as .codeclimate.yml (note leading .) in project root directory
+languages:
+  JavaScript: true
+# exclude_paths:
+# - "foo/bar.rb"
+
+ratings:
+  paths:
+  - "app/**"
+  - "lib/**"
+  - Gemfile.lock
