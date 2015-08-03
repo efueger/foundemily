@@ -1,11 +1,26 @@
 # Save as .codeclimate.yml (note leading .) in project root directory
-languages:
-  JavaScript: true
-# exclude_paths:
-# - "foo/bar.rb"
 
-ratings:
-  paths:
-  - "app/**"
-  - "lib/**"
-  - Gemfile.lock
+languages:
+    Python: true
+    Javascript: true
+exclude_paths:
+  - "articles/migrations/*"
+  - "blog/migrations/*"
+  - "brainbank/migrations/*"
+  - "lifeX/migrations/*"
+  - "poems/migrations/*"
+  - "sitedata/migrations/*"
+  - "stories/migrations/*"
+  - "friends/migrations/*"
+
+
+# languages:
+#   JavaScript: true
+# # exclude_paths:
+# # - "foo/bar.rb"
+
+# ratings:
+#   paths:
+#   - "app/**"
+#   - "lib/**"
+#   - Gemfile.lock
