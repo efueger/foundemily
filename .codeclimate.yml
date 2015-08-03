@@ -2,7 +2,7 @@
 
 languages:
     Python: true
-    Javascript: true
+    JavaScript: true
 exclude_paths:
   - "articles/migrations/*"
   - "blog/migrations/*"
