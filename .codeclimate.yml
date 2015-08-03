@@ -2,11 +2,12 @@
   
 languages:
   JavaScript: true
- exclude_paths:
+exclude_paths:
   - "build"
   - "external"
   - "bower_components"
   - "node_modules"
+
 
 
 # languages:
